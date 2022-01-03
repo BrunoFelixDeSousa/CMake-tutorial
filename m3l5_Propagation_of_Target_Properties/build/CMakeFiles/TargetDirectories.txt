@@ -1,0 +1,5 @@
+C:/EstudosProgramacao/Cpp/CMake-tutorial/m3l5_Propagation_of_Target_Properties/build/CMakeFiles/calculator.dir
+C:/EstudosProgramacao/Cpp/CMake-tutorial/m3l5_Propagation_of_Target_Properties/build/CMakeFiles/ALL_BUILD.dir
+C:/EstudosProgramacao/Cpp/CMake-tutorial/m3l5_Propagation_of_Target_Properties/build/CMakeFiles/ZERO_CHECK.dir
+C:/EstudosProgramacao/Cpp/CMake-tutorial/m3l5_Propagation_of_Target_Properties/build/my_math/CMakeFiles/my_math.dir
+C:/EstudosProgramacao/Cpp/CMake-tutorial/m3l5_Propagation_of_Target_Properties/build/my_print/CMakeFiles/my_print.dir

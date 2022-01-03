@@ -1,0 +1,10 @@
+^C:\ESTUDOSPROGRAMACAO\CPP\CMAKE-TUTORIAL\M3L5_PROPAGATION_OF_TARGET_PROPERTIES\MY_MATH\CMAKELISTS.TXT
+setlocal
+C:\cmake-3.22.1-windows-x86_64\bin\cmake.exe -SC:/EstudosProgramacao/Cpp/CMake-tutorial/m3l5_Propagation_of_Target_Properties -BC:/EstudosProgramacao/Cpp/CMake-tutorial/m3l5_Propagation_of_Target_Properties/build --check-stamp-file C:/EstudosProgramacao/Cpp/CMake-tutorial/m3l5_Propagation_of_Target_Properties/build/my_math/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
