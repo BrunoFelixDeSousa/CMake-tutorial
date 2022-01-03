@@ -1,0 +1,5 @@
+C:/EstudosProgramacao/Cpp/CMake-tutorial/m2l2_Build_Files_Generation_Process/my_build_dir/CMakeFiles/my_math.dir
+C:/EstudosProgramacao/Cpp/CMake-tutorial/m2l2_Build_Files_Generation_Process/my_build_dir/CMakeFiles/my_print.dir
+C:/EstudosProgramacao/Cpp/CMake-tutorial/m2l2_Build_Files_Generation_Process/my_build_dir/CMakeFiles/calculadora.dir
+C:/EstudosProgramacao/Cpp/CMake-tutorial/m2l2_Build_Files_Generation_Process/my_build_dir/CMakeFiles/ALL_BUILD.dir
+C:/EstudosProgramacao/Cpp/CMake-tutorial/m2l2_Build_Files_Generation_Process/my_build_dir/CMakeFiles/ZERO_CHECK.dir

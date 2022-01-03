@@ -1,0 +1,50 @@
+Comando para compilar multiplos arquivos
+
+g++ arquivo1.cpp arquivo2.cpp arquivo3.cpp ... -o nomeDoExecutavel
+ ex: g++ main.cpp addition.cpp division.cpp print_result.cpp -o calculadora
+
+// arquivos .o são arquivos binários vulgarmente conhecidos como "objeto"; linkados com vários
+// outros componentes (eventualmente outros .o) acabam por participar de um arquivo final, 
+// executável.
+
+// Comando para gerar arquivos binários. exemplo: main.o
+    g++ -c main.cpp
+
+// Comando para compilar arquivos binários:
+    g++ main.o addition.o division.o print_result.o -o calculadora
+
+-----------------------------------------------------------------------------------------------------------------------
+link: https://cmake.org/cmake/help/v3.22/guide/tutorial/A%20Basic%20Starting%20Point.html
+
+Etapa 1: Um ponto de partida básico
+
+CMakeLists.txt
+
+    cmake_minimum_required(VERSION 3.10)
+
+    # set the project name
+    project(Tutorial)
+
+    # add the executable
+    add_executable(Tutorial tutorial.cxx)
+
+Construir e executar
+// requisito para executar o cmake
+// arquivo CMakeLists.txt
+// criar e entrar na pasta build 
+// Em seguida, navegue até o diretório de compilação e execute o 
+// CMake para configurar o projeto e gerar um sistema de compilação nativo:
+    cmake ..
+// Em seguida, chame esse sistema de construção para realmente compilar / vincular o projeto:
+    cmake --build .
+
+Adicionando um número de versão e arquivo de cabeçalho configurado
+
+CMakeLists.txt 
+    cmake_minimum_required(VERSION 3.10)
+
+    # set the project name and version
+    project(Tutorial VERSION 1.0)
+
+Para fazer uso da nova biblioteca, adicionaremos um add_subdirectory() chame o CMakeLists.txtarquivo de nível superior 
+para que a biblioteca seja construída.

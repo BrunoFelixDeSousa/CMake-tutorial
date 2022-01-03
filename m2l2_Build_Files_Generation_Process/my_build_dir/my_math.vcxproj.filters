@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\EstudosProgramacao\Cpp\CMake-tutorial\m2l2_Build_Files_Generation_Process\addition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\EstudosProgramacao\Cpp\CMake-tutorial\m2l2_Build_Files_Generation_Process\division.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\EstudosProgramacao\Cpp\CMake-tutorial\m2l2_Build_Files_Generation_Process\subtration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\EstudosProgramacao\Cpp\CMake-tutorial\m2l2_Build_Files_Generation_Process\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{16388759-4DB2-3B3B-93EC-9C7143789E7C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

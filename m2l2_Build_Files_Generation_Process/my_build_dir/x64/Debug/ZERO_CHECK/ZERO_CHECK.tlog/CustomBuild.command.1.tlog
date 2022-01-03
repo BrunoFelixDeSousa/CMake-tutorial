@@ -1,0 +1,10 @@
+^C:\ESTUDOSPROGRAMACAO\CPP\CMAKE-TUTORIAL\M2L2_BUILD_FILES_GENERATION_PROCESS\MY_BUILD_DIR\CMAKEFILES\EAEF232D0550D2C376535DC8AE654319\GENERATE.STAMP.RULE
+setlocal
+C:\cmake-3.22.1-windows-x86_64\bin\cmake.exe -SC:/EstudosProgramacao/Cpp/CMake-tutorial/m2l2_Build_Files_Generation_Process -BC:/EstudosProgramacao/Cpp/CMake-tutorial/m2l2_Build_Files_Generation_Process/my_build_dir --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/EstudosProgramacao/Cpp/CMake-tutorial/m2l2_Build_Files_Generation_Process/my_build_dir/Calculadora.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
