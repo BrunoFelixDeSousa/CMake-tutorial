@@ -1,0 +1,10 @@
+^C:\ESTUDOSPROGRAMACAO\CPP\CMAKE-TUTORIAL\M3L3_CMAKE_WAY_OF_INCLUDING_THE_HEADER_FILES\BUILD\CMAKEFILES\DF7EECE119748926B671E84D57647D60\GENERATE.STAMP.RULE
+setlocal
+C:\cmake-3.22.1-windows-x86_64\bin\cmake.exe -SC:/EstudosProgramacao/Cpp/CMake-tutorial/m3l3_CMake_way_of_Including_the_Header_Files -BC:/EstudosProgramacao/Cpp/CMake-tutorial/m3l3_CMake_way_of_Including_the_Header_Files/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/EstudosProgramacao/Cpp/CMake-tutorial/m3l3_CMake_way_of_Including_the_Header_Files/build/Calculator_Project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
