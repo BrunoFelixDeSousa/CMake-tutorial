@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\EstudosProgramacao\Cpp\CMake-tutorial\m2l4_Generating_the_First_Library\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\EstudosProgramacao\Cpp\CMake-tutorial\m2l4_Generating_the_First_Library\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{57B0A670-E586-3338-824F-6FB49FCB60C2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

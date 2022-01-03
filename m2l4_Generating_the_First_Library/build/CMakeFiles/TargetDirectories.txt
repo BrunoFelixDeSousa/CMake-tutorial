@@ -1,0 +1,5 @@
+C:/EstudosProgramacao/Cpp/CMake-tutorial/m2l4_Generating_the_First_Library/build/CMakeFiles/my_math.dir
+C:/EstudosProgramacao/Cpp/CMake-tutorial/m2l4_Generating_the_First_Library/build/CMakeFiles/my_print.dir
+C:/EstudosProgramacao/Cpp/CMake-tutorial/m2l4_Generating_the_First_Library/build/CMakeFiles/calculator.dir
+C:/EstudosProgramacao/Cpp/CMake-tutorial/m2l4_Generating_the_First_Library/build/CMakeFiles/ALL_BUILD.dir
+C:/EstudosProgramacao/Cpp/CMake-tutorial/m2l4_Generating_the_First_Library/build/CMakeFiles/ZERO_CHECK.dir
