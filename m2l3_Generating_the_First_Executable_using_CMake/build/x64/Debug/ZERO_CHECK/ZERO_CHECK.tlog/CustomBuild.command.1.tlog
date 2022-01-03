@@ -1,0 +1,10 @@
+^C:\ESTUDOSPROGRAMACAO\CPP\CMAKE-TUTORIAL\M2L3_GENERATING_THE_FIRST_EXECUTABLE_USING_CMAKE\BUILD\CMAKEFILES\227EE0365A13802C69E08693B2AE0997\GENERATE.STAMP.RULE
+setlocal
+C:\cmake-3.22.1-windows-x86_64\bin\cmake.exe -SC:/EstudosProgramacao/Cpp/CMake-tutorial/m2l3_Generating_the_First_Executable_using_CMake -BC:/EstudosProgramacao/Cpp/CMake-tutorial/m2l3_Generating_the_First_Executable_using_CMake/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/EstudosProgramacao/Cpp/CMake-tutorial/m2l3_Generating_the_First_Executable_using_CMake/build/Calculator_Project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

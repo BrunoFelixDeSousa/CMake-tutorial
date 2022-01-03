@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\EstudosProgramacao\Cpp\CMake-tutorial\m2l3_Generating_the_First_Executable_using_CMake\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\EstudosProgramacao\Cpp\CMake-tutorial\m2l3_Generating_the_First_Executable_using_CMake\addition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\EstudosProgramacao\Cpp\CMake-tutorial\m2l3_Generating_the_First_Executable_using_CMake\division.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\EstudosProgramacao\Cpp\CMake-tutorial\m2l3_Generating_the_First_Executable_using_CMake\print_result.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\EstudosProgramacao\Cpp\CMake-tutorial\m2l3_Generating_the_First_Executable_using_CMake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6B3E46CC-8027-3139-A8DF-A44234722CB8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

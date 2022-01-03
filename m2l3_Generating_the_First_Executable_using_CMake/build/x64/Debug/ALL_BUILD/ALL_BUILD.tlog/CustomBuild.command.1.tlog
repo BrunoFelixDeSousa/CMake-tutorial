@@ -1,0 +1,10 @@
+^C:\ESTUDOSPROGRAMACAO\CPP\CMAKE-TUTORIAL\M2L3_GENERATING_THE_FIRST_EXECUTABLE_USING_CMAKE\CMAKELISTS.TXT
+setlocal
+C:\cmake-3.22.1-windows-x86_64\bin\cmake.exe -SC:/EstudosProgramacao/Cpp/CMake-tutorial/m2l3_Generating_the_First_Executable_using_CMake -BC:/EstudosProgramacao/Cpp/CMake-tutorial/m2l3_Generating_the_First_Executable_using_CMake/build --check-stamp-file C:/EstudosProgramacao/Cpp/CMake-tutorial/m2l3_Generating_the_First_Executable_using_CMake/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

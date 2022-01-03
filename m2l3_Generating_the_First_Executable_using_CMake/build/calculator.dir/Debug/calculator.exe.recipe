@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\EstudosProgramacao\Cpp\CMake-tutorial\m2l3_Generating_the_First_Executable_using_CMake\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\EstudosProgramacao\Cpp\CMake-tutorial\m2l3_Generating_the_First_Executable_using_CMake\build\Debug\calculator.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
