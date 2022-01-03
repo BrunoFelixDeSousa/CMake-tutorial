@@ -1,0 +1,10 @@
+^C:\ESTUDOSPROGRAMACAO\CPP\CMAKE-TUTORIAL\M2L6_FAQ_ON_TARGETS\CMAKELISTS.TXT
+setlocal
+C:\cmake-3.22.1-windows-x86_64\bin\cmake.exe -SC:/EstudosProgramacao/Cpp/CMake-tutorial/m2l6_FAQ_on_Targets -BC:/EstudosProgramacao/Cpp/CMake-tutorial/m2l6_FAQ_on_Targets/build --check-stamp-file C:/EstudosProgramacao/Cpp/CMake-tutorial/m2l6_FAQ_on_Targets/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

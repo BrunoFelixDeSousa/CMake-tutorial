@@ -1,0 +1,10 @@
+^C:\ESTUDOSPROGRAMACAO\CPP\CMAKE-TUTORIAL\M2L6_FAQ_ON_TARGETS\BUILD\CMAKEFILES\47BF5821555F6A993F8153776B65A31E\GENERATE.STAMP.RULE
+setlocal
+C:\cmake-3.22.1-windows-x86_64\bin\cmake.exe -SC:/EstudosProgramacao/Cpp/CMake-tutorial/m2l6_FAQ_on_Targets -BC:/EstudosProgramacao/Cpp/CMake-tutorial/m2l6_FAQ_on_Targets/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/EstudosProgramacao/Cpp/CMake-tutorial/m2l6_FAQ_on_Targets/build/Calculator_Project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
